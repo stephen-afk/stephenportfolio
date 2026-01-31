@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephen Brenan Teves | IT Student</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Minimalist Header -->
+  <header class="minimal-header">
+    <div class="header-container">
+      <a href="#hero" class="logo">Stephen Brenan Teves</a>
+      <button id="themeToggle" class="theme-toggle" title="Toggle dark mode">
+        <span class="icon">🌙</span>
+      </button>
+      <button id="hamburger" class="hamburger" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#currently-learning">Learning</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-minimal" id="hero">
+    <div class="hero-content">
+      <div class="profile-image-container">
+        <img id="profilePic" src="assets/profile-open.png" alt="Stephen Brenan Teves" class="profile-image">
+      </div>
+      <h1 class="hero-name">Stephen Brenan Teves</h1>
+      <p class="hero-location">📍 Antipolo City, Rizal</p>
+      <p class="hero-title">IT Student \ Aspiring Developer \ Tech Enthusiast</p>
+      <div class="hero-actions">
+       <button onclick="sendEmail()" class="btn-outline">Send Email</button>
+        <a href="assets/resume.pdf" download class="btn-primary">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="section-container">
+      <h2 class="section-title">About</h2>
+      <div class="section-content">
+        <p>I am an Information Technology student currently pursuing a Diploma in IT at the Polytechnic University of the Philippines. I am passionate about learning and excited to gain real-world experience through On-the-Job Training.</p>
+        <p>I value teamwork, take responsibility seriously, and adapt easily to new tasks and environments. I am always open to learning new skills that help me grow personally and professionally.</p>
+        <p class="personality-quote">When I'm not debugging code, you'll find me on the basketball court, deep in a manga binge, or exploring coffee shops around the city.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Tech Stack -->
+  <section id="skills" class="section section-gray">
+    <div class="section-container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="tech-categories">
+        <div class="tech-category">
+          <h3>Development</h3>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML & CSS</span>
+            <span class="tech-tag">Java (Basic)</span>
+            <span class="tech-tag">JavaScript (Basic)</span>
+            <span class="tech-tag">Flutter/Dart (Basic)</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h3>Tools & Software</h3>
+          <div class="tech-tags">
+            <span class="tech-tag">Microsoft Visual Studio</span>
+            <span class="tech-tag">Sublime Text</span>
+            <span class="tech-tag">MS Office Suite</span>
+          </div>
+        </div>
+        <div class="tech-category">
+          <h3>Database</h3>
+          <div class="tech-tags">
+            <span class="tech-tag">Database Management</span>
+            <span class="tech-tag">Database Security</span>
+            <span class="tech-tag">Firebase (Basic)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Currently Learning -->
+  <section id="currently-learning" class="section">
+    <div class="section-container">
+      <h2 class="section-title">Currently Learning</h2>
+      <div class="learning-list">
+        <div class="learning-card">
+          <span class="learning-emoji">🚀</span>
+          <h3>Advanced Web Development</h3>
+          <p>Diving deeper into modern web technologies and frameworks</p>
+        </div>
+        <div class="learning-card">
+          <span class="learning-emoji">📱</span>
+          <h3>Mobile App Development</h3>
+          <p>Building cross-platform mobile applications</p>
+        </div>
+        <div class="learning-card">
+          <span class="learning-emoji">🔐</span>
+          <h3>Cybersecurity Fundamentals</h3>
+          <p>Understanding security principles and best practices</p>
+        </div>
+        <div class="learning-card">
+          <span class="learning-emoji">☁️</span>
+          <h3>Cloud Technologies</h3>
+          <p>Exploring cloud computing and deployment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-gray">
+    <div class="section-container">
+      <h2 class="section-title">Recent Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <div class="project-header">
+            <div>
+              <h3>Electronic Health Record (EHR) Database System</h3>
+              <p class="project-meta">Academic Project · Completed</p>
+            </div>
+            <span class="status-badge completed">Completed</span>
+          </div>
+          <p class="project-description">Designed and set up a centralized database server.</p>
+          <div class="project-tech">
+            <span>MySQL</span>
+            <span>Database Security</span>
+            <span>Server Management</span>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div>
+              <h3>Bank Management Database System</h3>
+              <p class="project-meta">Academic Project · Completed</p>
+            </div>
+            <span class="status-badge completed">Completed</span>
+          </div>
+          <p class="project-description">Designed and implemented a centralized database server. Connected multiple devices and managed comprehensive security protocols as Security Administrator, managing user roles and permissions.  </p>
+          <div class="project-tech">
+            <span>MySQL</span>
+            <span>Database Security</span>
+            <span>Server Management</span>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-header">
+            <div>
+              <h3>Capstone Project – Mobile Application</h3>
+              <p class="project-meta">Academic Project · Ongoing</p>
+            </div>
+            <span class="status-badge ongoing">Ongoing</span>
+          </div>
+          <p class="project-description">Currently developing a centralized digital platform modeled after the efficiency of Grab and Angkas to bridge the gap between clients and skilled workers by replacing unreliable word-of-mouth methods with features like real-time availability tracking and transparent pricing.</p>
+          <div class="project-tech">
+            <span>Mobile Development</span>
+            <span>UI/UX Design</span>
+            <span>Backend Integration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience / OJT -->
+  <section id="experience" class="section">
+    <div class="section-container">
+      <h2 class="section-title">Experience</h2>
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Tech Support, QA & Procurement</h3>
+            <p class="timeline-institution">Cepat Kredit (Financing Company)</p>
+            <p class="timeline-period">OJT - 2nd Year College</p>
+            <p class="timeline-description">Provided technical support to users, conducted quality assurance testing, and assisted with procurement processes. Gained hands-on experience in customer service, troubleshooting, and business operations.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>On-the-Job Training</h3>
+            <p class="timeline-institution">Sto. Niño Barangay Hall, Marikina City</p>
+            <p class="timeline-period">OJT - Senior High School</p>
+            <p class="timeline-description">Completed on-the-job training at the local government unit. Assisted with administrative tasks and gained exposure to public service operations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <div class="section-container">
+      <h2 class="section-title">Academic Achievements</h2>
+      <div class="achievements-list">
+        <div class="achievement-item">
+          <div class="achievement-icon">🥇</div>
+          <div class="achievement-info">
+            <h3>President Lister</h3>
+            <p>2nd Year, 1st Semester</p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">⭐</div>
+          <div class="achievement-info">
+            <h3>Dean's Lister</h3>
+            <p>2nd Year, 2nd Semester</p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">🥇</div>
+          <div class="achievement-info">
+            <h3>President Lister</h3>
+            <p>1st Year, 2nd Semester</p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">⭐</div>
+          <div class="achievement-info">
+            <h3>Dean's Lister</h3>
+            <p>1st Year, 1st Semester</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-gray">
+    <div class="section-container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Diploma in Information Technology</h3>
+            <p class="timeline-institution">Polytechnic University of the Philippines</p>
+            <p class="timeline-period">Currently Studying</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Senior High School - TVL ICT Strand</h3>
+            <p class="timeline-institution">AMA Computer College East Rizal</p>
+            <p class="timeline-period">Graduated</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>High School</h3>
+            <p class="timeline-institution">Sta. Elena High School, Marikina City</p>
+            <p class="timeline-period">Graduated</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Elementary</h3>
+            <p class="timeline-institution">Balanti Unit 1 Elementary School, Cainta, Rizal</p>
+            <p class="timeline-period">Graduated</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beyond Coding -->
+  <section id="hobbies" class="section">
+    <div class="section-container">
+      <h2 class="section-title">Beyond Coding</h2>
+      <div class="section-content">
+        <p>When not writing code, I enjoy playing basketball, watching anime, reading manga, and exploring new coffee shops around the city. I believe in maintaining a balance between technical growth and personal interests.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-gray">
+  <div class="section-container">
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-grid">
+
+      <div class="contact-item">
+        <div class="contact-icon">📧</div>
+        <div class="contact-info">
+          <h4>Email</h4>
+          <a href="mailto:stephenbrenanteves@gmail.com">
+            stephenbrenanteves@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">ⓕ</div>
+        <div class="contact-info">
+          <h4>Facebook</h4>
+          <a href="mailto:https://www.facebook.com/share/1GnWfXnpQc/">
+            Stephen Brenan Teves
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div class="contact-info">
+          <h4>Phone</h4>
+          <a href="tel:09100596236">0910-059-6236</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div class="contact-info">
+          <h4>Location</h4>
+          <p>Zone 12A Baybay Sapa Mayamot Antipolo City Unit 1</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>© 2026 Stephen Brenan Teves. All rights reserved.</p>
+      <p class="footer-subtitle">Designed & Developed by Stephen Brenan Teves</p>
+    </div>
+  </footer>
+
+  <!-- Chatbox -->
+  <div class="chat-widget">
+    <button class="chat-toggle" id="chatToggle">
+      <span class="chat-icon">💬</span>
+      <span class="chat-close">✕</span>
+    </button>
+    <div class="chat-container" id="chatContainer">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <img src="assets/profile-open.png" alt="Stephen" class="chat-avatar">
+          <div>
+            <h4>Stephen Teves</h4>
+            <p class="chat-status">
+              <span class="status-dot"></span>
+              Online
+            </p>
+          </div>
+        </div>
+        <button class="chat-minimize" id="chatMinimize">−</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message bot-message">
+          <div class="message-content">
+            <p>👋 Hi! I'm Stephen. Thanks for visiting my portfolio!</p>
+          </div>
+          <span class="message-time">Just now</span>
+        </div>
+        <div class="chat-message bot-message">
+          <div class="message-content">
+            <p>Feel free to ask me anything about me, Yung andito lang sa Portfolio ko bes</p>
+          </div>
+          <span class="message-time">Just now</span>
+        </div>
+      </div>
+      <div class="chat-input-container">
+        <input type="text" class="chat-input" id="chatInput" placeholder="Type your message..." autocomplete="off">
+        <button class="chat-send" id="chatSend">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22,2 15,22 11,13 2,9"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
